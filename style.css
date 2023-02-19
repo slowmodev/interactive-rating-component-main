@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+.container{
+    margin: 150px 20px;
+    border-radius: 15px;
+    padding: 25px 20px;
+    background-color: hsl(213, 19%, 18%);
+}
+.container img {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;;
+    padding: 15px;
+    background-color: hsl(217, 28%, 24%);
+}
+h2{
+    margin: 15px 0;
+}
+p {
+    margin: 15px 0;
+    color: hsl(217, 12%, 63%);
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.numbers button {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: hsl(217, 28%, 24%);
+    padding: 15px;
+    margin: 15px 0;
+    color: hsl(217, 12%, 63%);
+}
+.numbers button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: #ffffff;
+}
+.numbers button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.15em;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+button:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    transition: 0.2s;
+    color: hsl(25, 97%, 53%);
+}
+.hide {
+    display: none;
+}
+.container-2{
+    margin: 150px 20px;
+    border-radius: 15px;
+    padding: 25px 20px;
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+}
+.container-2 img {
+    margin-top: 10px;
+}
+#rating {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 28%, 24%);
+    border-radius: 15px;
+    padding: 7px;
+    margin: 20px 60px;
+}
+@media (min-width: 650px) {
+    .container {
+        width: 230px;
+        height: 220px;
+        margin: 12% auto;
+        padding: 15px;
+    }
+    .container img {
+        width: 20px;
+        height: 20px;
+        padding:5px;
+    }
+    h2 {
+        font-size: 1em;
+        margin: 5px 0;
+    }
+    p {
+        font-size: 0.6em;
+        margin: 10px 0;
+    }
+    .numbers button {
+        font-size: 0.6em;
+        margin: 5px 0;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    button {
+        font-size: 0.6em;
+        height: 30px;
+    }
+    .container-2 {
+        width: 230px;
+        height: 220px;
+        margin: 12% auto;
+        padding: 15px;
+    }
+    .container-2 img {
+        width: 40%;
+    }
+    #rating {
+        font-size: 0.6em;
+        margin: 10px 40px;
+        padding: 5px;
+    }
+}
